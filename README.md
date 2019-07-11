@@ -1,9 +1,9 @@
-#NodeJs Introduction
+# NodeJs Introduction
 ---
 
-##In this project we used NodeJs to create a simple application that handles different URL paths, as well as server responses
+## In this project we used NodeJs to create a simple application that handles different URL paths, as well as server responses
 
-###Instruction
+### Instruction
 
 To run please make sure you have [NodeJs](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/) installed in your computer.
 
