@@ -1,0 +1,40 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Some description",
+  "main": "module.ts",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node src/server.ts",
+    "dev": "./node_modules/.bin/nodemon ",
+    "build": "./node_modules/.bin/tsc -p tsconfig.json",
+    "test": "./node_modules/.bin/mocha -r ts-node/register src/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obedgm/helloECE.git"
+  },
+  "author": "Obed Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obedgm/helloECE/issues"
+  },
+  "homepage": "https://github.com/obedgm/helloECE#readme",
+  "dependencies": {
+    "@types/mongodb": "^3.1.28",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/express": "^4.17.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
